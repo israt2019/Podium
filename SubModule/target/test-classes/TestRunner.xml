@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Podium App is running on Chrome Browser">
+
+    <parameter name="useSauceLab" value="false"/>
+    <parameter name="userName" value="israt"/>
+    <parameter name="key" value="662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa"/>
+    <parameter name="appUrl" value="https://www.podium.com/"/>
+    <parameter name="os" value="windows"/> <!-- change the os parameter in "mac" -->
+
+    <!-- change the browser name if you need to run on different browser -->
+    <parameter name="browserName" value="chrome"/>
+
+    <!--Please change the browser version as your system -->
+    <parameter name="browserVersion" value="84.0.4147.135"/>
+
+    <test name="Home Page" group-by-instances="true">
+        <classes>
+            <!--&lt;!&ndash;<class name="SignupTest"/>-->
+            <class name="Login"></class>
+            <class name="CreateAccount"></class>
+            <class name="Pricing"></class>
+            <class name="liveChatWindow"></class>
+            <class name="WatchDemoVideo"></class>
+            <class name="HomePageLinkVerify"></class>
+
+        </classes>
+    </test>
+
+
+</suite>

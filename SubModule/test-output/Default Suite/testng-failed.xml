@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="useSauceLab" value="false"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="browserVersion" value="84.0.4147.135"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="appUrl" value="https://www.podium.com/"/>
+  <parameter name="userName" value="israt"/>
+  <parameter name="key" value="662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa"/>
+  <test thread-count="4" parallel="methods" name="Home Page(failed)">
+    <classes>
+      <class name="Pricing">
+        <methods>
+          <include name="setUp"/>
+          <include name="createAFreeAccount"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Pricing -->
+    </classes>
+  </test> <!-- Home Page(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

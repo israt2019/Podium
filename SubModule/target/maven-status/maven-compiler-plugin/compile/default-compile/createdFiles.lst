@@ -1,0 +1,6 @@
+api\SubModuleBase.class
+pageobject\HomePage.class
+pageobject\AccountPage.class
+pageobject\PricingPage.class
+pageobject\Learn.class
+pageobject\AuthenticationPage.class

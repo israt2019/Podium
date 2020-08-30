@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Podium App is running on Chrome Browser]" guice-stage="DEVELOPMENT">
+  <parameter name="useSauceLab" value="false"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="browserVersion" value="84.0.4147.135"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="appUrl" value="https://www.podium.com/"/>
+  <parameter name="userName" value="israt"/>
+  <parameter name="key" value="662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa"/>
+  <test thread-count="5" name="Home Page(failed)">
+    <classes>
+      <class name="WatchDemoVideo">
+        <methods>
+          <include name="setUp"/>
+          <include name="watchDemoVideoValidation"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- WatchDemoVideo -->
+      <class name="Login">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyLoginWithoutValidCredential"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Login -->
+      <class name="CreateAccount">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="createAFreeAccount"/>
+        </methods>
+      </class> <!-- CreateAccount -->
+      <class name="HomePageLinkVerify">
+        <methods>
+          <include name="setUp"/>
+          <include name="watchDemoLink"/>
+          <include name="allHomePageLink"/>
+          <include name="cleanUp"/>
+          <include name="getStartedLink"/>
+        </methods>
+      </class> <!-- HomePageLinkVerify -->
+      <class name="Pricing">
+        <methods>
+          <include name="setUp"/>
+          <include name="priceQuoteWithoutInput"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Pricing -->
+      <class name="liveChatWindow">
+        <methods>
+          <include name="verifyliveChatWindow"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- liveChatWindow -->
+    </classes>
+  </test> <!-- Home Page(failed) -->
+</suite> <!-- Failed suite [Podium App is running on Chrome Browser] -->

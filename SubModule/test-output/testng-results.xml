@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-29T19:48:11 EDT" name="Podium App is running on Chrome Browser" finished-at="2020-08-29T19:52:05 EDT" duration-ms="234155">
+    <groups>
+    </groups>
+    <test started-at="2020-08-29T19:48:11 EDT" name="Home Page" finished-at="2020-08-29T19:52:05 EDT" duration-ms="234155">
+      <class name="liveChatWindow">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:liveChatWindow@4e41089d]" started-at="2020-08-29T19:49:31 EDT" name="setUp" finished-at="2020-08-29T19:49:39 EDT" duration-ms="7571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[israt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.podium.com/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[84.0.4147.135]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyliveChatWindow()[pri:0, instance:liveChatWindow@4e41089d]" started-at="2020-08-29T19:49:39 EDT" name="verifyliveChatWindow" finished-at="2020-08-29T19:49:55 EDT" duration-ms="16718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyliveChatWindow -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:liveChatWindow@4e41089d]" started-at="2020-08-29T19:49:55 EDT" name="cleanUp" finished-at="2020-08-29T19:50:00 EDT" duration-ms="4718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- liveChatWindow -->
+      <class name="WatchDemoVideo">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:WatchDemoVideo@32a068d1]" started-at="2020-08-29T19:50:00 EDT" name="setUp" finished-at="2020-08-29T19:50:25 EDT" duration-ms="24669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[israt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.podium.com/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[84.0.4147.135]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="watchDemoVideoValidation()[pri:0, instance:WatchDemoVideo@32a068d1]" started-at="2020-08-29T19:50:25 EDT" name="watchDemoVideoValidation" finished-at="2020-08-29T19:51:10 EDT" duration-ms="45005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watchDemoVideoValidation -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:WatchDemoVideo@32a068d1]" started-at="2020-08-29T19:51:10 EDT" name="cleanUp" finished-at="2020-08-29T19:51:15 EDT" duration-ms="4785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- WatchDemoVideo -->
+      <class name="HomePageLinkVerify">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HomePageLinkVerify@33cb5951]" started-at="2020-08-29T19:51:15 EDT" name="setUp" finished-at="2020-08-29T19:51:22 EDT" duration-ms="7910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[israt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.podium.com/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[84.0.4147.135]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getStartedLink()[pri:2, instance:HomePageLinkVerify@33cb5951]" started-at="2020-08-29T19:51:22 EDT" name="getStartedLink" finished-at="2020-08-29T19:51:23 EDT" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:HomePageLinkVerify@33cb5951]" started-at="2020-08-29T19:51:23 EDT" name="cleanUp" finished-at="2020-08-29T19:51:29 EDT" duration-ms="5435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HomePageLinkVerify@33cb5951]" started-at="2020-08-29T19:51:29 EDT" name="setUp" finished-at="2020-08-29T19:51:36 EDT" duration-ms="7741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[israt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.podium.com/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[84.0.4147.135]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="watchDemoLink()[pri:3, instance:HomePageLinkVerify@33cb5951]" started-at="2020-08-29T19:51:36 EDT" name="watchDemoLink" finished-at="2020-08-29T19:51:38 EDT" duration-ms="1326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watchDemoLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:HomePageLinkVerify@33cb5951]" started-at="2020-08-29T19:51:38 EDT" name="cleanUp" finished-at="2020-08-29T19:51:42 EDT" duration-ms="4715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HomePageLinkVerify@33cb5951]" started-at="2020-08-29T19:51:42 EDT" name="setUp" finished-at="2020-08-29T19:51:50 EDT" duration-ms="7969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[israt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.podium.com/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[84.0.4147.135]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allHomePageLink()[pri:4, instance:HomePageLinkVerify@33cb5951]" started-at="2020-08-29T19:51:50 EDT" name="allHomePageLink" finished-at="2020-08-29T19:52:01 EDT" duration-ms="10087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allHomePageLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:HomePageLinkVerify@33cb5951]" started-at="2020-08-29T19:52:01 EDT" name="cleanUp" finished-at="2020-08-29T19:52:05 EDT" duration-ms="4714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- HomePageLinkVerify -->
+      <class name="Pricing">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pricing@70beb599]" started-at="2020-08-29T19:49:12 EDT" name="setUp" finished-at="2020-08-29T19:49:20 EDT" duration-ms="8525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[israt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.podium.com/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[84.0.4147.135]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="priceQuoteWithoutInput()[pri:0, instance:Pricing@70beb599]" started-at="2020-08-29T19:49:20 EDT" name="priceQuoteWithoutInput" finished-at="2020-08-29T19:49:26 EDT" duration-ms="6014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceQuoteWithoutInput -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:Pricing@70beb599]" started-at="2020-08-29T19:49:26 EDT" name="cleanUp" finished-at="2020-08-29T19:49:31 EDT" duration-ms="4888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- Pricing -->
+      <class name="CreateAccount">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CreateAccount@11c20519]" started-at="2020-08-29T19:48:35 EDT" name="setUp" finished-at="2020-08-29T19:48:43 EDT" duration-ms="7826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[israt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.podium.com/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[84.0.4147.135]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createAFreeAccount()[pri:0, instance:CreateAccount@11c20519]" started-at="2020-08-29T19:48:43 EDT" name="createAFreeAccount" finished-at="2020-08-29T19:49:07 EDT" duration-ms="24261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAFreeAccount -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:CreateAccount@11c20519]" started-at="2020-08-29T19:49:07 EDT" name="cleanUp" finished-at="2020-08-29T19:49:12 EDT" duration-ms="4759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- CreateAccount -->
+      <class name="Login">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Login@2bbaf4f0]" started-at="2020-08-29T19:48:11 EDT" name="setUp" finished-at="2020-08-29T19:48:22 EDT" duration-ms="11087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[israt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.podium.com/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[84.0.4147.135]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithoutValidCredential()[pri:0, instance:Login@2bbaf4f0]" started-at="2020-08-29T19:48:22 EDT" name="verifyLoginWithoutValidCredential" finished-at="2020-08-29T19:48:30 EDT" duration-ms="7855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutValidCredential -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:Login@2bbaf4f0]" started-at="2020-08-29T19:48:30 EDT" name="cleanUp" finished-at="2020-08-29T19:48:35 EDT" duration-ms="4706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- Login -->
+    </test> <!-- Home Page -->
+  </suite> <!-- Podium App is running on Chrome Browser -->
+</testng-results>
